@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pesanan Kopi Keliling</title>
+</head>
+<body>
+    <h1>FORM PESANAN KOPI KELILING MAS BUDI</h1>
+    <p>berikut adalah daftar menu yang bisa dipesan</p>
+    <table>
+        <tr>
+            <th>Daftar Menu</th>
+            <th>Harga</th>
+        </tr>
+        <tr>
+            <td>Americano</td>
+            <td>Rp.8000</td>
+        </tr>
+        <tr>
+            <td>Matcha Latte</td>
+            <td>Rp.15000</td>
+        </tr>
+        <tr>
+            <td>Caramel Latte</td>
+            <td>Rp.12000</td>
+        </tr>
+    </table>
+    <form>
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama">
+
+        <label for="telfon">Nomor Telfon:</label>
+        <input type="tel" id="telfon" name="telfon">
+
+        <p>Menu Yang Dipesan:</p>
+
+<input type="checkbox" id="americano" name="menu" value="Americano">
+<label for="americano">Americano</label>
+<input type="number" id="jumlah-americano" name="jumlah-americano" min="1" value="1">
+<br>
+
+<input type="checkbox" id="matcha" name="menu" value="Matcha Latte">
+<label for="matcha">Matcha Latte</label>
+<input type="number" id="jumlah-matcha" name="jumlah-matcha" min="1" value="1">
+<br>
+
+<input type="checkbox" id="caramel" name="menu" value="Caramel Latte">
+<label for="caramel">Caramel Latte</label>
+<input type="number" id="jumlah-caramel" name="jumlah-caramel" min="1" value="1">
+        <button type="submit">Kirim Pesanan</button>
+    </form>
+</body>
+</html>
