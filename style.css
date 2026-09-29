@@ -9,20 +9,18 @@ h1{
         text-align: center;
     }
 
-th{
+th,td{
         background-color:#DAD2DE ;
-        color: black;
+        color: green;
         font-size: 36px;
-    }
-
-td{
-        background-color: #7F967F;
-        color: black;
-        font-size: 36px;
+        padding: 10px;
+        border: 2px solid gray;
     }
 
 table{
         margin: 0 auto;
+        border: 2px solid black;
+        padding: 12px;
     }
     
 p{
