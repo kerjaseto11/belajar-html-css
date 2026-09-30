@@ -35,3 +35,8 @@ label{
 #halaman-profile h1{
     color: green;
 }
+#halaman-profile img{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
